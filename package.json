@@ -1,0 +1,30 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DongVietLong/codecualong.git"
+  },
+  "keywords": [
+    "f8",
+    "blog"
+  ],
+  "author": "long",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DongVietLong/codecualong/issues"
+  },
+  "homepage": "https://github.com/DongVietLong/codecualong#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

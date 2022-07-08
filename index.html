@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="root">
+
+    </div>
+    <script crossorigin src="https://unpkg.com/react@18.0.0/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18.0.0/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+        function Header(){
+            return (
+                <div class="header">New Header</div>
+            )
+        }
+        class Content extends React.Component{
+            render(){
+                return (
+                    <div class="content"> New Content</div>
+                )
+            }
+        }
+        function PostItem(){
+            return (
+                <div class="post-item">
+                    <h2 class="post-title">tương tác</h2>
+                    <p class="post-desc">bạn có kiến thức ngôn ngữ lập trình</p>
+                    <p class="post-published">một ngày trước</p>
+                </div>
+            )
+        }
+        class Content extends React.Component {
+            render(){
+                return (
+                    <React.Fragment>
+                    
+                    </React.Fragment>
+                )
+            }
+        }
+        const app = (
+            <div class="weapper">
+                <PostItem>
+                   
+                </PostItem>
+                <PostItem>
+                   
+                </PostItem> 
+                <PostItem>
+                   
+                </PostItem> 
+            </div>
+        )
+        ReactDOM.render(app,document.querySelector('.root'));
+    </script>
+</body>
+</html>
